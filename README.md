@@ -1,5 +1,33 @@
 # 🍔 Estrela do Cardápio - Hambúrguer Healthy
 
+> 🌐 **[CLIQUE AQUI PARA VER A PÁGINA INTERATIVA NO AR](https://Givolpato.github.io/tropical-food-hamburguer/)**
+
+---
+
+## 🎨 Pré-visualização do Anúncio
+
+*(Página criada em HTML/CSS/SVG com o hambúrguer e a descrição divertida)*
+
+---
+
+## 🌟 Sobre o Projeto
+Este projeto é uma landing page promocional desenvolvida em **HTML5**, **CSS3** e **SVG** para apresentar a "Estrela do Cardápio: Hambúrguer Healthy".
+
+### 📋 Ingredientes em Destaque no Anúncio:
+* Pão torrado na manteiga com gergelim
+* Carne de hambúrguer na Airfryer & fatias de carne de porco
+* Queijo mussarela derretido
+* Alface japonesa rasgada na mão
+* Colher de maionese especial
+
+---
+
+## 📂 Arquivos do Repositório
+* **`index.html`**: Código-fonte completo com a ilustração em SVG e todo o estilo gráfico da página.
+* **`hamburguer_healthy_portfolio.pdf`**: Arquivo em PDF do anúncio pronto para impressão.
+
+# 🍔 Estrela do Cardápio - Hambúrguer Healthy
+
 Bem-vindo(a) ao projeto **Hambúrguer Healthy**! Este repositório é uma página promocional interativa criada para apresentar o prato principal do cardápio com uma abordagem criativa, divertida e focada em design web.
 
 ---
