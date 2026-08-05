@@ -33,9 +33,8 @@ O projeto destaca os seguintes elementos do hambúrguer:
 
 Você pode visualizar este projeto funcionando diretamente no navegador através do link do GitHub Pages:
 
-👉 **[Clique aqui para ver a página da Estrela do Cardápio](https://seu-usuario.github.io/tropical-food-hamburguer/)**
+👉 **[Clique aqui para ver a página da Estrela do Cardápio](https://Givolpato.github.io/tropical-food-hamburguer/)**
 
-*(Lembre-se de trocar `seu-usuario` pelo seu nome de usuário do GitHub no link acima!)*
 
 ---
 
@@ -43,4 +42,4 @@ Você pode visualizar este projeto funcionando diretamente no navegador através
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/tropical-food-hamburguer.git](https://github.com/seu-usuario/tropical-food-hamburguer.git)
+   git clone [https://github.com/Givolpato/tropical-food-hamburguer.git](https://github.com/Givolpato/tropical-food-hamburguer.git)
