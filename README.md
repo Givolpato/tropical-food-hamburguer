@@ -33,7 +33,7 @@ O projeto destaca os seguintes elementos do hambúrguer:
 
 Você pode visualizar este projeto funcionando diretamente no navegador através do link do GitHub Pages:
 
-👉 **[Clique aqui para ver a página da Estrela do Cardápio](https://Givolpato.github.io/tropical-food-hamburguer/)**
+👉 **[Clique aqui para ver a página da Estrela do Cardápio](https://github.com/Givolpato/tropical-food-hamburguer/)**
 
 
 ---
