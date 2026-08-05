@@ -41,5 +41,4 @@ Você pode visualizar este projeto funcionando diretamente no navegador através
 ## 💻 Como Executar Localmente
 
 1. Clone este repositório:
-   ```bash
-   git clone [https://github.com/Givolpato/tropical-food-hamburguer.git](https://github.com/Givolpato/tropical-food-hamburguer.git)
+    https://github.com/Givolpato/tropical-food-hamburguer.git (https://github.com/Givolpato/tropical-food-hamburguer.git)
