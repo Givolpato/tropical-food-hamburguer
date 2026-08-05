@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrela do Cardápio - Hambúrguer Healthy</title>
+    <style>
+        /* Reset e Configurações Globais */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ff6f00; /* Fundo Laranja Vibrante */
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 650px;
+            text-align: center;
+        }
+
+        /* Título Principal */
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: #ffffff;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #fff8e1;
+            margin-bottom: 25px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Moldura para o Hambúrguer */
+        .image-frame {
+            background-color: #ffffff;
+            padding: 12px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            margin: 0 auto 25px auto;
+            width: 100%;
+            max-width: 520px;
+        }
+
+        .image-frame svg {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            display: block;
+        }
+
+        /* Card da Descrição Divertida */
+        .card-promo {
+            background: rgba(255, 255, 255, 0.95);
+            color: #222222;
+            padding: 25px 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+            border: 3px solid #ffe082;
+        }
+
+        .promo-title {
+            color: #d84315;
+            font-size: 1.4rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .promo-text {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #333333;
+            text-align: justify;
+        }
+
+        .highlight {
+            color: #e65100;
+            font-weight: bold;
+        }
+
+        .tags {
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #e65100;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        /* Botão de Ação */
+        .btn-pedir {
+            display: inline-block;
+            background-color: #d84315;
+            color: #ffffff;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            text-transform: uppercase;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn-pedir:hover {
+            background-color: #bf360c;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Título Principal -->
+    <h1>Estrela do Cardápio</h1>
+    <div class="subtitle">Hambúrguer Healthy</div>
+
+    <!-- Ilustração do Hambúrguer (SVG) -->
+    <div class="image-frame">
+        <svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+            <!-- Fundo da Foto -->
+            <rect width="600" height="450" fill="#f5ebe0" />
+            
+            <!-- Prato de Apresentação -->
+            <ellipse cx="300" cy="380" rx="220" ry="40" fill="#d7ccc8" />
+            <ellipse cx="300" cy="375" rx="200" ry="32" fill="#efebe9" />
+
+            <!-- Pão Inferior Torrado -->
+            <path d="M 180 340 C 180 310, 420 310, 420 340 Q 420 365, 300 365 Q 180 365, 180 340 Z" fill="#d78b43" />
+            <path d="M 185 335 C 185 315, 415 315, 415 335 Z" fill="#f4a261" />
+
+            <!-- Queijo Mussarela Derretido -->
+            <path d="M 170 320 C 200 315, 400 315, 430 320 C 440 335, 410 350, 390 335 C 370 355, 340 360, 320 335 C 290 355, 260 350, 240 330 C 210 345, 180 340, 170 320 Z" fill="#ffe066" />
+
+            <!-- Carne de Hambúrguer (Airfryer) -->
+            <rect x="175" y="290" width="250" height="32" rx="12" fill="#5c3d2e" />
+            <rect x="180" y="293" width="240" height="10" rx="5" fill="#4a2e2b" opacity="0.5" />
+
+            <!-- Carne de Porco Fatiada -->
+            <path d="M 190 285 Q 300 275 410 285 L 405 295 Q 300 285 195 295 Z" fill="#8d5b4c" />
+            <path d="M 210 278 Q 300 270 390 278 L 385 286 Q 300 278 215 286 Z" fill="#a46859" />
+
+            <!-- Alface Japonesa Cortada na Mão -->
+            <path d="M 150 275 C 170 250, 210 280, 240 260 C 270 285, 310 255, 350 280 C 390 255, 430 285, 450 265 C 460 290, 420 300, 390 290 C 350 305, 300 290, 260 300 C 210 290, 170 305, 150 275 Z" fill="#52b788" />
+            <path d="M 165 270 C 180 255, 210 275, 230 262 C 260 280, 290 260, 330 275 C 370 258, 410 280, 435 268" stroke="#74c69d" stroke-width="4" fill="none" />
+
+            <!-- Colher de Maionese -->
+            <ellipse cx="280" cy="255" rx="35" ry="12" fill="#fff9db" />
+            <ellipse cx="330" cy="258" rx="25" ry="10" fill="#fffdf0" />
+
+            <!-- Pão Superior na Manteiga com Gergelim -->
+            <path d="M 170 240 C 170 140, 430 140, 430 240 C 430 255, 170 255, 170 240 Z" fill="#e76f51" />
+            <path d="M 180 235 C 180 155, 420 155, 420 235 Z" fill="#f4a261" />
+
+            <!-- Brilho da Manteiga no Pão -->
+            <path d="M 220 170 C 260 155, 340 155, 380 170 C 350 162, 250 162, 220 170 Z" fill="#ffe066" opacity="0.6" />
+
+            <!-- Gergelim -->
+            <ellipse cx="230" cy="190" rx="4" ry="2" fill="#fff9db" transform="rotate(-15 230 190)" />
+            <ellipse cx="280" cy="170" rx="4" ry="2" fill="#fff9db" transform="rotate(10 280 170)" />
+            <ellipse cx="320" cy="180" rx="4" ry="2" fill="#fff9db" transform="rotate(-5 320 180)" />
+            <ellipse cx="370" cy="200" rx="4" ry="2" fill="#fff9db" transform="rotate(20 370 200)" />
+            <ellipse cx="250" cy="210" rx="4" ry="2" fill="#fff9db" transform="rotate(5 250 210)" />
+            <ellipse cx="340" cy="210" rx="4" ry="2" fill="#fff9db" transform="rotate(-12 340 210)" />
+        </svg>
+    </div>
+
+    <!-- Apresentação do Hambúrguer -->
+    <div class="card-promo">
+        <div class="promo-title">O 'Healthy' que é uma verdadeira tentação!</div>
+        <p class="promo-text">
+            "Este hambúrguer é o astro que você não sabia que precisava! <span class="highlight">É TÃO saboroso</span> que o seu paladar vai achar que ganhou na loteria da comilança! Imagina só: <span class="highlight">pão na manteiga torradinho</span>, queijo derretendo, uma <span class="highlight">carne na airfryer Suculenta & Sem Culpa (talvez 😉)</span>, carne de porco fatiada e uma <span class="highlight">alface rasgada na mão</span> que é PURO CHARME! É um mix LOUCO de sabores que vai te deixar rindo à toa e implorando por mais uma mordida. <span class="highlight">É O MAIS AMADO, O MAIS QUERIDO, O MAIORAL!</span> Não resista, peça já o seu e entre para o fã-clube oficial do Hambúrguer Healthy!"
+        </p>
+        <div class="tags">
+            #ComédiaNoPrato #AmorÀPrimeiraMordida #DelíciaDemais #HambúrguerHealthy #EstrelaDoDia
+        </div>
+        <a href="#" class="btn-pedir">Peça Já o Seu! 🍔</a>
+    </div>
+</div>
+
+</body>
+</html>
